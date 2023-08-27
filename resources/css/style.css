@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: #ededed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    gap: 10px;
+    padding: 20px 10%;
+    width: 100%;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    font-size: 18px;
+    margin-left: 35px;
+    gap: 35px;
+    transition: .3s;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    color: #ededed;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.image {
+    width: 400px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 84vh;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: aqua;
+}
+
+p {
+    font-size: 16px;
+    max-width: 500px;
+}
+
+button {
+    padding: 05px 20px;
+    background-color: aqua;
+    color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+footer {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: aqua;
+}
